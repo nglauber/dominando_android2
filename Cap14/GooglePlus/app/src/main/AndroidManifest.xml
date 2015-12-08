@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dominando.android.googleplus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="dominando.android.googleplus.MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dominando.android.googleplus.TelaAbasActivity"
+            android:parentActivityName="dominando.android.googleplus.MainActivity"
+            android:theme="@style/BaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dominando.android.googleplus.MainActivity" />
+        </activity>
+        <activity
+            android:name="dominando.android.googleplus.TelaSpinnerActivity"
+            android:parentActivityName="dominando.android.googleplus.MainActivity"
+            android:theme="@style/BaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dominando.android.googleplus.MainActivity" />
+        </activity>
+        <activity
+            android:name="dominando.android.googleplus.TelaPagerActivity"
+            android:parentActivityName="dominando.android.googleplus.MainActivity"
+            android:theme="@style/BaseTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dominando.android.googleplus.MainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

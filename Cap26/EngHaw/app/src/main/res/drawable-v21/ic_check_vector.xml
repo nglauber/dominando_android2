@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24">
+    <group
+        android:name="rotacao"
+        android:pivotX="12"
+        android:pivotY="12"
+        android:rotation="0">
+        <path
+            android:name="v"
+            android:pathData="@string/vector_check"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3" />
+    </group>
+</vector>

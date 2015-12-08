@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DataBinding</string>
+    <string name="nomeComSobrenome">%1$s %2$s</string>
+</resources>

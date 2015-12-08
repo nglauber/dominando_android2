@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Persistencia</string>
+
+    <string name="titulo_cidade">Cidade</string>
+    <string name="pref_cidade">cidade</string>
+    <string name="pref_cidade_default">Recife</string>
+    <string name="titulo_mensagens">Receber mensagens</string>
+    <string name="sumario_mensagens">Aplicação deve receber mensagens</string>
+    <string name="pref_mensagens">mensagens</string>
+    <string name="titulo_rede_social">Rede social</string>
+    <string name="pref_rede_social">rede_social</string>
+    <string name="pref_rede_social_default">gplus</string>
+    <string-array name="redes_sociais">
+        <item>Google +</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>LinkedIn</item>
+    </string-array>
+    <string-array name="redes_sociais_valores">
+        <item>gplus</item>
+        <item>fb</item>
+        <item>twitter</item>
+        <item>linkedin</item>
+    </string-array>
+
+</resources>

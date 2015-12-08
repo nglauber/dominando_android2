@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mapas</string>
+
+    <string name="erro_gps">É necessário habilitar a configuração de localização para utilizar o aplicativo.</string>
+
+    <string name="msg_buscar">Buscando endereço…</string>
+    <string name="origem">Origem</string>
+    <string name="destino">Destino</string>
+    <string name="titulo_lista_endereco">Selecione o destino</string>
+    <string name="msg_rota">Traçando rota…</string>
+    <string name="local_atual">Local atual</string>
+
+    <string name="erro_local">Você deve habilitar as permissões para utilizar o aplicativo.</string>
+</resources>

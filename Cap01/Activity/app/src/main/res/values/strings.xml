@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="btn_toast">Exibir toast</string>
+    <string name="btn_tela2">Tela 2</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="toolbar_padding_normal">0dp</dimen>
+    <dimen name="toolbar_padding_translucent">0dp</dimen>
+    <dimen name="toolbar_height_normal">56dp</dimen>
+    <dimen name="toolbar_height_translucent">56dp</dimen>
+</resources>
+

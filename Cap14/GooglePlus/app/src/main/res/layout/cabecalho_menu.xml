@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@android:color/black">
+    <ImageView
+        android:id="@+id/imgCapa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:scaleType="fitXY" />
+    <ImageView
+        android:id="@+id/imgFotoPerfil"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="@dimen/activity_horizontal_margin" />
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:shadowColor="#000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20"
+        android:text="@string/app_name"
+        android:layout_alignBottom="@+id/imgFotoPerfil"
+        android:layout_toRightOf="@+id/imgFotoPerfil"
+        android:layout_toEndOf="@+id/imgFotoPerfil" />
+</RelativeLayout>

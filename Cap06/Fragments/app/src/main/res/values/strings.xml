@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Fragments</string>
+
+    <string name="acao_pesquisar">Pesquisar</string>
+    <string name="acao_novo">Novo</string>
+    <string name="acao_info">Info</string>
+    <string name="hint_busca">Procurar por Hotel</string>
+
+    <string name="sobre_titulo">Dominando o Android</string>
+    <string name="sobre_mensagem">Desenvolvido por nglauber</string>
+    <string name="sobre_botao_site">Site</string>
+
+    <string name="nome">Nome</string>
+    <string name="endereco">Endereço</string>
+    <string name="classificacao">Classificação</string>
+
+    <string name="acao_delete">Excluir</string>
+    <plurals name="numero_selecionados">
+        <item quantity="one">1 selecionado</item>
+        <item quantity="other">%d selecionados</item>
+    </plurals>
+
+    <string name="mensagem_excluir">%d itens excluídos.</string>
+    <string name="desfazer">Desfazer</string>
+
+    <string name="acao_compartilhar">Compartilhar</string>
+    <string name="texto_compartilhar">Me hospedei no %1$s e o classifiquei em %2$.1f estrelas</string>
+
+</resources>

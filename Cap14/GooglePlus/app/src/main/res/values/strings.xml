@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Navegacao</string>
+
+    <string name="opcao_aba">Abas</string>
+    <string name="opcao_spinner">Spinner</string>
+    <string name="opcao_pager">View Pager</string>
+    <string-array name="secoes">
+        <item>Seção 1</item>
+        <item>Seção 2</item>
+        <item>Seção 3</item>
+    </string-array>
+    <array name="cores_bg">
+        <item> #FFCDD2</item>
+        <item> #B2DFDB</item>
+        <item> #BBDEFB</item>
+    </array>
+    <array name="cores_texto">
+        <item>#F44336</item>
+        <item>#4CAF50</item>
+        <item>#03A9F4</item>
+    </array>
+    <color name="primaria">#3f51b5</color>
+    <color name="primaria_escura">#303f9f</color>
+    <color name="forte">#ff4081</color>
+
+    <string name="opcao_amigos">Amigos</string>
+    <string name="opcao_login">Login</string>
+    <string name="opcao_logout">Logout</string>
+</resources>

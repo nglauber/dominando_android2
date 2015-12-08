@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contatos</string>
+
+    <string name="nome">Nome</string>
+    <string name="endereco">Endereço</string>
+    <string name="fone">Telefone</string>
+    <string name="adic_contato">Adicionar contato</string>
+    <string name="ok">OK</string>
+    <string name="cancelar">Cancelar</string>
+
+</resources>

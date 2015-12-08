@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewRaiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainWearActivity"
+    tools:deviceIds="wear_rect">
+    <android.support.wearable.view.GridViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"/>
+    <android.support.wearable.view.DismissOverlayView
+        android:id="@+id/dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

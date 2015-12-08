@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Animacoes</string>
+
+    <string-array name="animacoes">
+        <item>AlphaAnimation</item>
+        <item>RotateAnimation</item>
+        <item>ScaleAnimation</item>
+        <item>TranslateAnimation</item>
+        <item>AnimationSet</item>
+    </string-array>
+    <string-array name="interpolators">
+        <item>AccelerateDecelerateInterpolator</item>
+        <item>AccelerateInterpolator</item>
+        <item>AnticipateInterpolator</item>
+        <item>AnticipateOvershootInterpolator</item>
+        <item>BounceInterpolator</item>
+        <item>CycleInterpolator</item>
+        <item>DecelerateInterpolator</item>
+        <item>LinearInterpolator</item>
+        <item>OvershootInterpolator</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,7 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_cancel_vector" >
+    <target
+        android:name="x"
+        android:animation="@anim/cancel_check" />
+</animated-vector>

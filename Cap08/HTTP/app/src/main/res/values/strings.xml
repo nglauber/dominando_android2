@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HTTP</string>
+
+    <string name="n_paginas">%d páginas</string>
+</resources>

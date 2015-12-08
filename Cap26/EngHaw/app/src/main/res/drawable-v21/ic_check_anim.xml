@@ -1,0 +1,9 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_check_vector" >
+    <target
+        android:name="rotacao"
+        android:animation="@anim/rotation" />
+    <target
+        android:name="v"
+        android:animation="@anim/check_cancel" />
+</animated-vector>

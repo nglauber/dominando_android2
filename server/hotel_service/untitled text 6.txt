@@ -1,0 +1,29 @@
+[
+	{
+		"titulo":"
+	}
+	
+	{ 
+		"titulo": "A revolta dos Dândis",
+		"capa": "capa_revolta.jpg",
+		"ano": 1987,
+		"gravadora": "BMG",
+		"formação": [
+			"Humberto Gessinger",
+			"Augusto Licks",
+			"Carlos Maltz"
+		],
+		"faixas": [
+			"A revolta dos Dândis I",
+			"Terra de gigantes",
+			"Infinita highway",
+			"Refrão de bolero",
+			"Filmes de guerra, canções de amor",
+			"A revolta dos Dândis II",
+			"Além dos out-doors",
+			"Vozes",
+			"Quem tem pressa não se interessa",
+			"Desde aquele dia",
+			"Guardas da fronteira"]
+		
+]

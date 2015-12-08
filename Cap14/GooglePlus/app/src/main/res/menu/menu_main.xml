@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_aba"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/opcao_aba" />
+        <item
+            android:id="@+id/action_spinner"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/opcao_spinner" />
+        <item
+            android:id="@+id/action_pager"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/opcao_pager" />
+        <item
+            android:id="@+id/action_friends"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/opcao_amigos" />
+    </group>
+
+    <item
+        android:id="@+id/action_login_logout"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/opcao_login" />
+</menu>

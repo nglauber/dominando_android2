@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="@string/titulo_cidade"
+        android:key="@string/pref_cidade"
+        android:defaultValue="@string/pref_cidade_default"
+        android:inputType="text"
+        android:singleLine="true"/>
+    <SwitchPreference
+        android:title="@string/titulo_mensagens"
+        android:summary="@string/sumario_mensagens"
+        android:key="@string/pref_mensagens"/>
+    <ListPreference
+        android:title="@string/titulo_rede_social"
+        android:key="@string/pref_rede_social"
+        android:entries="@array/redes_sociais"
+        android:entryValues="@array/redes_sociais_valores"
+        android:defaultValue="@string/pref_rede_social_default"/>
+</PreferenceScreen>

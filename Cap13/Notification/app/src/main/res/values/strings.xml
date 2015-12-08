@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="titulo_notificacao">Notificação %1$d</string>
+    <plurals name="qtde_mensagens">
+        <item quantity="one">1 mensagem</item>
+        <item quantity="other">%1$d mensagens</item>
+    </plurals>
+
+</resources>
