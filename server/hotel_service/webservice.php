@@ -14,7 +14,7 @@ $sql = "CREATE TABLE IF NOT EXISTS hotel_db.Hotel (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
 nome VARCHAR(100) NOT NULL,
 endereco VARCHAR(100) NOT NULL,
-estrelas DECIMAL(1,1)
+estrelas DECIMAL(2,1)
 )";
 if ($conn->query($sql) === FALSE) {
     echo "Erro ao criar tabela: " . $conn->error;
