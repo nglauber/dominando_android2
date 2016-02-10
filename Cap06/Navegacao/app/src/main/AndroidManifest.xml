@@ -7,10 +7,11 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/BaseTheme">
         <activity
             android:name=".MainActivity"
-            android:launchMode="singleTop">
+            android:launchMode="singleTop"
+            android:theme="@style/MainTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +21,7 @@
         <activity
             android:name=".TelaAbasActivity"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/BaseTheme">
+            android:theme="@style/DetailTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -28,7 +29,7 @@
         <activity
             android:name=".TelaSpinnerActivity"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/BaseTheme">
+            android:theme="@style/DetailTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -36,7 +37,7 @@
         <activity
             android:name=".TelaPagerActivity"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/BaseTheme">
+            android:theme="@style/DetailTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
