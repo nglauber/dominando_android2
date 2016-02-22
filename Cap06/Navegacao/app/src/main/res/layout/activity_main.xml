@@ -4,7 +4,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="@bool/fitSysWin">
+    android:fitsSystemWindows="false">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,6 +21,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/cabecalho_menu"
-        android:fitsSystemWindows="@bool/fitSysWin"
+        android:fitsSystemWindows="false"
         app:menu="@menu/menu_main" />
 </android.support.v4.widget.DrawerLayout>

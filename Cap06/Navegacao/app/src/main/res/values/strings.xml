@@ -19,8 +19,5 @@
         <item>#4CAF50</item>
         <item>#03A9F4</item>
     </array>
-    <color name="primaria">#3f51b5</color>
-    <color name="primaria_escura">#303f9f</color>
-    <color name="forte">#ff4081</color>
 
 </resources>

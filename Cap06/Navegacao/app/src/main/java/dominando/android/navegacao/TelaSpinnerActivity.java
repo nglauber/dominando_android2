@@ -1,6 +1,7 @@
 package dominando.android.navegacao;
 
 import android.content.res.TypedArray;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -11,6 +12,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class TelaSpinnerActivity extends AppCompatActivity
         implements AdapterView.OnItemSelectedListener {
@@ -55,6 +57,7 @@ public class TelaSpinnerActivity extends AppCompatActivity
     public void onNothingSelected(AdapterView<?> adapterView) {
     }
     private void exibirItem(int position) {
+        ((TextView)mSpinner.getChildAt(0)).setTextColor(Color.WHITE);
         String[] titulosAbas = getResources().getStringArray(R.array.secoes);
         TypedArray bgColors = getResources().obtainTypedArray(R.array.cores_bg);
         TypedArray textColors = getResources().obtainTypedArray(R.array.cores_texto);

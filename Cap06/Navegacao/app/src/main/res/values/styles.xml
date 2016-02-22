@@ -4,9 +4,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="MainTheme" parent="BaseTheme">
-    </style>
-    <style name="DetailTheme" parent="BaseTheme">
+    <style name="AppTheme" parent="BaseTheme">
     </style>
 </resources>
 
