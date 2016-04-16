@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity
         botaoEstado.setOnClickListener(this);
         if (savedInstanceState != null) {
             estado = savedInstanceState.getString(STATE_ESTADO);
-            botaoEstado.setText(estado);
+            if (estado != null) botaoEstado.setText(estado);
         }
     }
     @Override

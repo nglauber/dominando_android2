@@ -47,5 +47,5 @@ dependencies {
     androidTestCompile 'com.android.support.test:runner:0.4'
     androidTestCompile 'com.android.support.test:rules:0.3'
     androidTestCompile 'org.hamcrest:hamcrest-integration:1.3'
-    androidTestCompile 'com.android.support:support-annotations:23.1.1'
+    androidTestCompile 'com.android.support:support-annotations:23.+'
 }
