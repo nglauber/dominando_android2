@@ -3,5 +3,5 @@
     android:drawable="@drawable/ic_cancel_vector" >
     <target
         android:name="x"
-        android:animation="@anim/cancel_check" />
+        android:animation="@animator/cancel_check" />
 </animated-vector>

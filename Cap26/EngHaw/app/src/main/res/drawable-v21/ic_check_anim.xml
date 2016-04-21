@@ -2,8 +2,8 @@
     android:drawable="@drawable/ic_check_vector" >
     <target
         android:name="rotacao"
-        android:animation="@anim/rotation" />
+        android:animation="@animator/rotation" />
     <target
         android:name="v"
-        android:animation="@anim/check_cancel" />
+        android:animation="@animator/check_cancel" />
 </animated-vector>
