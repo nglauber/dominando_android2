@@ -7,7 +7,7 @@
             <livro>
                <ano>2013</ano>
                <autor>Robson Santos da Silva</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223505.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223505.jpg</capa>
                <paginas>168</paginas>
                <titulo>MOODLE 2 para Autores e Tutores - 3ª Edição</titulo>
             </livro>
@@ -19,7 +19,7 @@
             <livro>
                <ano>2013</ano>
                <autor>Pramod J. Sadalage / Martin Fowler</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223383.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223383.jpg</capa>
                <paginas>216</paginas>
                <titulo>NoSQL Essencial</titulo>
             </livro>
@@ -38,21 +38,21 @@
             <livro>
                <ano>2013</ano>
                <autor>Juliano Niederauer</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223642.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223642.jpg</capa>
                <paginas>192</paginas>
                <titulo>Jovem e Bem-Sucedido</titulo>
             </livro>
             <livro>
                <ano>2013</ano>
                <autor>Jonathan Fields</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223109.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223109.jpg</capa>
                <paginas>208</paginas>
                <titulo>Lidando com a Incerteza</titulo>
             </livro>
             <livro>
                <ano>2012</ano>
                <autor>Brian W. Fitzpatrick / Ben Collins-Sussman</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223291.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223291.jpg</capa>
                <paginas>208</paginas>
                <titulo>Equipes de Software</titulo>
             </livro>
@@ -64,35 +64,35 @@
             <livro>
                <ano>2013</ano>
                <autor>Martin Evans / Joshua Noble / Jordan Hochenbaum</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223734.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223734.jpg</capa>
                <paginas>424</paginas>
                <titulo>Arduino em Ação</titulo>
             </livro>
             <livro>
                <ano>2013</ano>
                <autor>Eben Upton / Gareth Halfacree</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223512.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223512.jpg</capa>
                <paginas>272</paginas>
                <titulo>Raspberry Pi – Manual do Usuário</titulo>
             </livro>
             <livro>
                <ano>2013</ano>
                <autor>Simon Monk</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223574.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223574.jpg</capa>
                <paginas>192</paginas>
                <titulo>Programando o Raspberry Pi</titulo>
             </livro>
             <livro>
                <ano>2013</ano>
                <autor>Matt Richardson / Shawn Wallace</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223451.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223451.jpg</capa>
                <paginas>192</paginas>
                <titulo>Primeiros Passos com o Raspberry Pi</titulo>
             </livro>
             <livro>
                <ano>2012</ano>
                <autor>Chris Walker</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223055.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223055.jpg</capa>
                <paginas>120</paginas>
                <titulo>Primeiros Passos com o Netduino</titulo>
             </livro>
@@ -118,21 +118,21 @@
             <livro>
                <ano>2012</ano>
                <autor>Murillo Lo Visco</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575223017.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575223017.jpg</capa>
                <paginas>304</paginas>
                <titulo>Imposto de Renda no Mercado de Ações</titulo>
             </livro>
             <livro>
                <ano>2011</ano>
                <autor>Newton Linchen / Tarcísio S. Peres</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575222881.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575222881.jpg</capa>
                <paginas>208</paginas>
                <titulo>Lucrando com os Tubarões</titulo>
             </livro>
             <livro>
                <ano>2011</ano>
                <autor>Edgar Gomes de Abreu</autor>
-               <capa>http://novatec.com.br/figuras/capas/9788575222713.jpg</capa>
+               <capa>https://s3.amazonaws.com/static.novatec.com.br/capas/9788575222713.jpg</capa>
                <paginas>320</paginas>
                <titulo>Certificação Anbid CPA-20 - 2ª Edição Revisada e Ampliada</titulo>
             </livro>
