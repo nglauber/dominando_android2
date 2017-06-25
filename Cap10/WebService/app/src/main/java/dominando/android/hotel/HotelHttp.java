@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HotelHttp {
-    public static final String SERVIDOR = "http://172.28.149.196/hotel_service";
+    public static final String SERVIDOR = "http://192.168.25.29/hotel_service";
     private static final String WEBSERVICE_URL = SERVIDOR +"/webservice.php";
     private Context mContext;
     private HotelRepositorio mRepositorio;
@@ -29,11 +29,14 @@ public class HotelHttp {
     public void sincronizar() throws Exception {
         enviarDadosPendentes();
         List<Hotel> hoteis = getHoteis();
+        List<Long> serverIds = new ArrayList<>();
         ContentResolver cr = mContext.getContentResolver();
         for (Hotel hotel : hoteis) {
+            serverIds.add(hotel.idServidor);
             hotel.status = Hotel.Status.OK;
             mRepositorio.inserirLocal(hotel, cr);
         }
+        mRepositorio.excluirLocal(serverIds, cr);
     }
     private void enviarDadosPendentes() throws Exception{
         Cursor cursor = mContext.getContentResolver().query(

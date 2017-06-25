@@ -6,6 +6,10 @@ import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.support.v4.content.CursorLoader;
+import android.text.TextUtils;
+
+import java.util.List;
+
 public class HotelRepositorio {
     private Context ctx;
     public HotelRepositorio(Context ctx) {
@@ -105,6 +109,13 @@ public class HotelRepositorio {
         Uri uri = Uri.withAppendedPath(
                 HotelProvider.CONTENT_URI, String.valueOf(hotel.id));
         int linhasAfetadas = cr.delete(uri, null, null);
+        return linhasAfetadas;
+    }
+
+    public int excluirLocal(List<Long> serverIds, ContentResolver cr) {
+        String ids = TextUtils.join(",", serverIds);
+        Uri uri = HotelProvider.CONTENT_URI;
+        int linhasAfetadas = cr.delete(uri, HotelSQLHelper.COLUNA_ID_SERVIDOR +" NOT IN (" + ids +")", null);
         return linhasAfetadas;
     }
 }
